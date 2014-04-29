@@ -10,4 +10,10 @@ https://help.github.com/articles/markdown-basics
 
 >blco
 
-<insert something>
+<insert something hidden>
+
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
