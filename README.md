@@ -12,7 +12,7 @@ https://help.github.com/articles/markdown-basics
 
 <insert something hidden>
 
-```HTML
+```PERL
 require 'redcarpet'
 markdown = Redcarpet.new("Hello World!")
 puts markdown.to_html
